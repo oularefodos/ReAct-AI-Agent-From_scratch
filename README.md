@@ -49,7 +49,7 @@ Follow these steps to set up the project locally:
     response = agent("What are the latest news about AI?", max_iterations=5)
 
 ## Creating Custom Tools
-You can define your own tools using the @tool decorator. Here's an example:
+**You can define your own tools using the @tool decorator. Here's an example**:
     ```bash
     from src.tools.toolClassDecorator import tool
     @tool(
