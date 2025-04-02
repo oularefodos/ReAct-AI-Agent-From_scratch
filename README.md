@@ -50,7 +50,7 @@ Follow these steps to set up the project locally:
 
 ## Creating Custom Tools
 **You can define your own tools using the @tool decorator. Here's an example**:
-    ```bash
+    ```
     from src.tools.toolClassDecorator import tool
     @tool(
         name="my_custom_tool",
@@ -62,4 +62,5 @@ Follow these steps to set up the project locally:
         # Your tool logic here
         return f"Processed {arg1} with {arg2}"
     tools = [my_custom_tool_func]
-    agent = Agent(tools=tools)
+    agent = Agent(tools=tools) ```
+    
