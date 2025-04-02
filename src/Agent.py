@@ -1,4 +1,3 @@
-import yaml
 import json
 from groq import Groq
 from dotenv import load_dotenv
@@ -6,6 +5,7 @@ import os
 from colorama import Fore, Style
 from src.helpers import extract_first_json
 import logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

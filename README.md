@@ -18,7 +18,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/react-agent-groq.git
+   git clone https://github.com/oularefodos/ReAct-AI-Agent-From_scratch.git
    cd react-agent-groq
 
 2. **nstall Dependencies**:

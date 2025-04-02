@@ -7,6 +7,6 @@ import requests
 if __name__ == "__main__":
     agent = Agent(
         tools=[wikipedia_search_tool, duck_duck_go_search_tool], 
-        groq_model_name="deepseek-r1-distill-llama-70b"
+        groq_model_name="llama-3.3-70b-versatile"
         );
-    agent("tell me about latest news in France", max_iterations=10);
+    agent("Who will face off in the 2025 Copa del Rey final?", max_iterations=10);
